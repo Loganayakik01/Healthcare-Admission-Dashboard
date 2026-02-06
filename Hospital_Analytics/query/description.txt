@@ -1,1 +1,36 @@
+Hospital Analytics SQL Views
+
+This SQL script creates **analytic-ready views** on the hospital database, enabling **quick insights and reporting** without complex joins every time.
+
+Key Views
+
+1. **`vw_AdmissionDetails`**
+
+   * Consolidates **patient, admission, department, doctor, branch, billing, and outcome data** into a single view.
+   * Ideal for **executive dashboards** or **detailed admission analysis**.
+   * Columns include:
+
+     * Patient info (`patient_name`, `age`, `gender`)
+     * Admission details (`admission_datetime`, `discharge_datetime`, `length_of_stay`, `is_readmission`)
+     * Department, doctor, branch
+     * Financial and outcome data (`total_cost`, `outcome`)
+
+2. **`vw_DoctorWorkload`**
+
+   * Summarizes **doctor utilization** based on procedures.
+   * Tracks:
+
+     * Total procedures performed
+     * Actual hours spent
+     * Utilization percentage vs available hours
+   * Useful for **resource planning and workload balancing**.
+
+ Example Queries
+
+* `SELECT TOP 10 * FROM vw_DoctorWorkload;` → quickly identifies **most and least utilized doctors**.
+* `SELECT TOP 3 * FROM bed_occupancy;` → monitors **critical bed occupancy snapshots** for operational alerts.
+
+**Purpose:** Enables **self-service reporting**, **KPI tracking**, and **dashboarding** for hospital management without writing repetitive joins.
+
+
 
