@@ -1,0 +1,78 @@
+doctor_id,doctor_name,department_id,department_name,available_hours,booked_hours
+1,Guneet Sunder,1,Cardiology,160,99
+2,Eshana Vasa,1,Cardiology,160,119
+3,Amaira Patel,1,Cardiology,160,103
+4,Alka Mittal,1,Cardiology,160,100
+5,Kala Bhatnagar,1,Cardiology,160,99
+6,Samar Gola,2,Oncology,160,132
+7,Varenya Bose,2,Oncology,160,106
+8,Ekaja Char,2,Oncology,160,117
+9,Qushi Bhatnagar,2,Oncology,160,104
+10,Urishilla Guha,2,Oncology,160,110
+11,Rudra Tiwari,3,Orthopedics,160,115
+12,Warinder Mahal,3,Orthopedics,160,113
+13,Panini Mitter,3,Orthopedics,160,118
+14,Christopher Virk,3,Orthopedics,160,118
+15,Upkaar Sundaram,3,Orthopedics,160,109
+16,Teerth Chawla,4,Pediatrics,160,114
+17,Nirja Raj,4,Pediatrics,160,121
+18,Odika Iyer,4,Pediatrics,160,96
+19,Warhi Sethi,4,Pediatrics,160,121
+20,Nathan Srinivas,5,Emergency,160,133
+21,Ayush Cheema,5,Emergency,160,128
+22,Balendra Om,5,Emergency,160,126
+23,Amrita Shetty,5,Emergency,160,144
+24,Ridhi Tella,5,Emergency,160,123
+25,Lakshit Joshi,6,General Medicine,160,123
+26,Logan Luthra,6,General Medicine,160,147
+27,Upma Bava,6,General Medicine,160,139
+28,Krish Bera,6,General Medicine,160,145
+29,Elijah Bhargava,7,Cardiology,160,110
+30,Amrita Wali,7,Cardiology,160,99
+31,Ridhi Balan,7,Cardiology,160,125
+32,Vansha Dhingra,7,Cardiology,160,98
+33,Benjamin Saran,7,Cardiology,160,105
+34,Triya Varughese,8,Oncology,160,123
+35,Udyati Sarraf,8,Oncology,160,131
+36,Yutika Desai,8,Oncology,160,122
+37,Chakradev Tella,8,Oncology,160,126
+38,Elijah Dass,8,Oncology,160,105
+39,Christopher Hora,9,Orthopedics,160,120
+40,Unnati Mall,9,Orthopedics,160,127
+41,Radhika Raju,9,Orthopedics,160,123
+42,Vihaan Cheema,10,Pediatrics,160,108
+43,Bhavika Bains,10,Pediatrics,160,110
+44,Isaiah Kannan,10,Pediatrics,160,122
+45,Tamanna Pradhan,11,Emergency,160,131
+46,Yutika Kunda,11,Emergency,160,126
+47,Vritti Murthy,11,Emergency,160,128
+48,Tripti Bhasin,12,General Medicine,160,140
+49,Vaishnavi Chauhan,12,General Medicine,160,139
+50,Chandani Goswami,12,General Medicine,160,125
+51,Ubika Kannan,12,General Medicine,160,143
+52,Madhavi Dara,12,General Medicine,160,125
+53,Hitesh Gaba,13,Cardiology,160,104
+54,Diya Jani,13,Cardiology,160,125
+55,Quincy Varghese,13,Cardiology,160,118
+56,Raksha Doshi,13,Cardiology,160,103
+57,Dalbir Modi,14,Oncology,160,130
+58,Chandresh Ramaswamy,14,Oncology,160,128
+59,Sneha Mukhopadhyay,14,Oncology,160,111
+60,Darika Kapadia,14,Oncology,160,105
+61,Adweta Divan,15,Orthopedics,160,108
+62,Champak Kar,15,Orthopedics,160,98
+63,Yauvani Saran,15,Orthopedics,160,125
+64,Parth Om,15,Orthopedics,160,114
+65,Yashvi Mandal,16,Pediatrics,160,106
+66,Om Chaudhuri,16,Pediatrics,160,116
+67,Udyati Mannan,16,Pediatrics,160,108
+68,Kavya Manne,16,Pediatrics,160,125
+69,Omya Bhavsar,16,Pediatrics,160,110
+70,Anika Soman,17,Emergency,160,124
+71,Bishakha Arya,17,Emergency,160,143
+72,Neelima Tank,17,Emergency,160,137
+73,Pranav Dhaliwal,17,Emergency,160,143
+74,Sarthak Viswanathan,18,General Medicine,160,148
+75,Aadhya Shere,18,General Medicine,160,132
+76,Falguni Issac,18,General Medicine,160,127
+77,Neelima Jani,18,General Medicine,160,151

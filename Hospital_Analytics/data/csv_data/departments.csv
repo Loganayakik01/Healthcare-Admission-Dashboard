@@ -1,0 +1,19 @@
+department_id,department_name,branch_id,total_beds
+1,Cardiology,1,37
+2,Oncology,1,20
+3,Orthopedics,1,37
+4,Pediatrics,1,30
+5,Emergency,1,62
+6,General Medicine,1,62
+7,Cardiology,2,30
+8,Oncology,2,16
+9,Orthopedics,2,30
+10,Pediatrics,2,24
+11,Emergency,2,50
+12,General Medicine,2,50
+13,Cardiology,3,27
+14,Oncology,3,14
+15,Orthopedics,3,27
+16,Pediatrics,3,21
+17,Emergency,3,45
+18,General Medicine,3,45
