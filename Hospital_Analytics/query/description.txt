@@ -31,6 +31,12 @@ Key Views
 * `SELECT TOP 3 * FROM bed_occupancy;` → monitors **critical bed occupancy snapshots** for operational alerts.
 
 **Purpose:** Enables **self-service reporting**, **KPI tracking**, and **dashboarding** for hospital management without writing repetitive joins.
-
-
+___________________________________________________________________________
+Technical Steps:
+Step 1: Connection Setup We established a connection using the pyodbc driver with the following connection string logic:
+Python
+connection_string = "DRIVER={ODBC Driver 17 for SQL Server};SERVER=YOUR_SERVER;DATABASE=HospitalAnalytics(create the database manually);Trusted_Connection=yes;"
+Step 2: Automated Table Creation Using SQLAlchemy's create_engine, the synthetic data generated in generate_csv.py was pushed directly into SQL Server tables using the Pandas .to_sql() function.
+Step 3: View Optimization Once the raw data was in SQL, we executed SQL Views (like vw_AdmissionDetails) to pre-join tables (Billing, Admissions, Doctors) for faster loading in Power BI.
+Step 4: FastAPI Integration The API script connects to these same SQL tables to calculate live KPIs (like Bed Occupancy) and serves them as JSON endpoints.
 
